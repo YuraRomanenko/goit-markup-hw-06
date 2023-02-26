@@ -74,7 +74,7 @@ pointer-events: none;
 .backdrop.is-hidden .modal {
 transform: translate(-50%, -50%) scale(0.9);
 }
-.modal {  
+.modal { 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -106,7 +106,24 @@ transform: translate(-50%, -50%) scale(0.9);
 .modal-close:hover {
   border-color: #2196f3; !!!----------------------!!!
 }
-
+.banner {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 3%;
+  color: var(--primary-text-color);
+}
+.form {
+  width: 528px;
+  height: 581px;
+}
+.js-speaker-form {
+  background-color: chartreuse;
+}
+textarea {
+  resize: none;
+}
 body {
   color: var(--primary-text-color);
   background-color: var(--white-text-color-header);
