@@ -77,24 +77,32 @@
 
                                     <div class="form-field">
                                         <Label class="form-label" for="name">Ім'я</Label>
-                                        <input class="form-input" type="text" name="name" id="name" />
+                                            <svg class="" width="16px" height="16px">
+                                            <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                                            </svg>
+                                        <input class="form-input" type="text" name="name" id="name" placeholder=" "/>
                                     </div>
 
                                     <div class="form-field">
                                         <Label class="form-label" for="tel">Телефон</Label>
-                                        <input class="form-input" type="tel" name="tel" id="tel"/>
+                                        <input class="form-input" type="tel" name="tel" id="tel" placeholder=" "/>
                                     </div>
                                     <div class="form-field">
-                                        <label class="form-label" for="meil">Пошта</label>
-                                        <input class="form-input" type="email" name="meil" id="meil"/>
+                                        <label class="form-label" for="mail">Пошта</label>
+                                        <input class="form-input" type="email" name="mail" id="meil" placeholder=" "/>
                                     </div>
 
-                                    <div class="form-field">
-                                        <label for="comment">Коментар</label>
-                                        <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+                                    <div class="forms-field">
+                                        <label class="commen" for="commen">Коментар</label>
+                                        <textarea class="commen-tex" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
                                     </div>
 
                                     <div class="field">
+                                        
+                                        <svg class="" width="16px" height="16px">
+                                           <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                                        </svg>
+                                        
                                         <input type="checkbox" name="" value="document" id="document"/>
                                         
                                         <label for="document">Погоджуюся з розсилкою та приймаю
@@ -622,7 +630,20 @@
             </div>
 
             <div class="button-form-footer">
-                <button class="Subscribe" type="submit">Підписатися</button>
+                <button class="Subscribe" type="submit">Підписатися
+                    <a
+                        class="button-form-link"
+                        href="https://Telegram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="icon-Telegram">
+
+                        <svg class="button-form-icon" width="24px" height="24px">
+                            <use href="./images/symbol-defs.svg#icon-Telegram">
+                            </use>
+                        </svg>
+                    </a>
+                </button>
              </div>
 
         </div>

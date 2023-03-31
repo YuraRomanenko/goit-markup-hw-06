@@ -78,8 +78,7 @@ transform: translate(-50%, -50%) scale(0.9);
   position: absolute;
   top: 50%;
   left: 50%;
-
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   min-width: 528px;
   min-height: 581px;
   background-color: #ffffff; 
@@ -119,27 +118,45 @@ transform: translate(-50%, -50%) scale(0.9);
   margin-right: auto;
   padding:12px 40px 40px 40px;
 }
+.form-label {
+  margin-bottom: 4px;
+}
+.forms-field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  position: relative;
+}
 .form-field {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
+
+  position: relative;
 }
 .form-field input {
   margin: 0;
-  padding: 6px 10px;
+  font:inherit;
+  padding: 6px 10px 6px 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
 }
-.form-field label {
-  margin-bottom: 4px;
-  color: var(--secondary-text-color);
+.icon-form {
 }
 .js-speaker-form {
-  text-align: left;;
+  text-align: left;
+}
+.commen {
+  margin-bottom: 4px;
+}
+.commen-tex {
+  padding: 12px 16px;
 }
 textarea {
   cursor: pointer;
@@ -858,3 +875,10 @@ ul {
   font-size: 16px;
   line-height: 30px;
 }
+.button-form-link {
+  margin-left: 10px;
+}
+.button-form-icon {
+  fill: #ffffff;
+}
+
